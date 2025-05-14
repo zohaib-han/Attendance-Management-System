@@ -51,6 +51,12 @@ A web-based, user-friendly Attendance Management System built using the MERN Sta
 
 📸 Screenshots
 
+![WhatsApp Image 2025-05-14 at 15 39 26_c803fe34](https://github.com/user-attachments/assets/26f1ed59-24f9-4e45-a933-0d874cdca9ae)
+![WhatsApp Image 2025-05-14 at 15 31 21_935d45c9](https://github.com/user-attachments/assets/aaffdd04-18ed-482e-b2a6-57e3e49519d3)
+![WhatsApp Image 2025-05-14 at 15 30 43_bb710075](https://github.com/user-attachments/assets/5bf2b4e9-eddc-422c-8cc9-24c892271ae7)
+![WhatsApp Image 2025-05-14 at 15 31 21_7b4315bb](https://github.com/user-attachments/assets/26141e24-a556-47cd-88af-e397b1016056)
+![WhatsApp Image 2025-05-14 at 15 41 01_175fa0da](https://github.com/user-attachments/assets/75359dd0-f7b8-4009-b9af-c8774a4b0c85)
+![WhatsApp Image 2025-05-14 at 15 42 40_cfe8637b](https://github.com/user-attachments/assets/76cadec7-c3c9-4cf8-b982-900653a934b6)
 
 
 🧪 Installation & Setup
