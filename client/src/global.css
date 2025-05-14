@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myfont;
+    src: url(./font/Montserrat-Black.ttf);
+  }
+  @font-face {
+    font-family: fExtraBold;
+    src: url(./font/Montserrat-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: fBold;
+    src: url(./font/Montserrat-Bold.ttf);
+  }
+  @font-face {
+    font-family: fSemiBold;
+    src: url(./font/Montserrat-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: fregular;
+    src: url(./font/Montserrat-Regular.ttf);
+  }
+  
+  * {
+    font-family: fregular;
+  }
+body{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+input {
+    font-size: 12px;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  th {
+    background-color: #4f46e5;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  td {
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  tr:hover {
+    background-color: #f9fafb;
+  }
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background: #0071bc;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0071bc;
+  }

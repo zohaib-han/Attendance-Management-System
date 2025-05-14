@@ -1,0 +1,199 @@
+
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #4f46e5;
+  justify-content: center;
+}
+
+.sectionHeader h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.head{
+  color: #1e293b;
+}
+.headicon{
+  color: #4f46e5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  padding: 1rem 3rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.236);
+  position: sticky;
+  z-index: 100;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.headerLeft h2{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4f46e5;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.menuButton:hover {
+  background-color: #f5f3ff;
+}
+
+.logo {
+  height: 40px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.notification {
+  position: relative;
+  color: #4f46e5;
+  cursor: pointer;
+}
+
+.notificationBadge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.name {
+  font-weight: 500;
+  color: #1e293b;
+  font-size: 1.2rem;
+}
+
+.designation {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.profilePic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #4f46e5;
+  object-fit: cover;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 0.5rem;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  color: #4b5563;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.dropdownItem:hover {
+  background-color: #f5f3ff;
+  color: #4f46e5;
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: white;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  z-index: 1001;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4f46e5;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.closeButton:hover {
+  background-color: #f5f3ff;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .headerRight {
+    gap: 1rem;
+  }
+
+  .profilePic {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.darktext{
+  
+  color: white;
+}
+.dark{
+  background: linear-gradient(135deg, #2c3e50, #4a69bd);
+}

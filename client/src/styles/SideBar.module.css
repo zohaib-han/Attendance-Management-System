@@ -1,0 +1,271 @@
+.sidebar {
+  position: fixed;
+  height: 95vh;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  padding: 20px 0px;
+  box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.sidebar.darkMode {
+  background: linear-gradient(135deg, #2c3e50, #4a69bd);
+}
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.centerit{
+  justify-content: center;
+}
+input:hover,
+button:hover,
+select:hover {
+  cursor: pointer;
+}
+
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  min-height: 60px;
+}
+
+.sidebarIcon {
+  flex-shrink: 0;
+}
+
+.sidebarText {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.sidebar h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.navList li {
+  margin-bottom: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.navlink:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navLink.active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.navIcon {
+  flex-shrink: 0;
+}
+
+.navText {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.welcomeMsg {
+  font-size: 0.8rem;
+  margin: 5px 0 0;
+  opacity: 0.9;
+}
+
+.classInfo {
+  font-size: 0.75rem;
+  margin: 5px 0 0;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+
+
+.logoutContainer {
+  margin-bottom: 8px;
+}
+
+.nightModeContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  justify-content: start;
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.navButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.toggleButton {
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #6e8efb;
+  border: 2px solid #a777e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.toggleButton:hover {
+  background: white;
+}
+
+.toggleSwitch {
+  width: 45px;
+  height: 20px;
+  background: #D3D3D3;
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  padding: 2px;
+  transition: background 0.3s;
+}
+
+.toggleSwitch.dark {
+  background: #2C3E50;
+}
+.dark{
+  background: #2C3E50;
+}
+
+.toggleSwitch:hover{
+  background-color: #D3D3D3;
+}
+
+.toggleBall {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.modeWrapper {
+  display: flex;
+}
+
+.modeIconText {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.sunIcon {
+  color: #FFD700;
+}
+
+.moonIcon {
+  color: #FFFFFF;
+}
+.footer{
+  border-top: 1px solid white;
+  margin: 0;
+  padding: 0;
+}
+.queryActions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.queryActions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.queryActions button:hover {
+  opacity: 0.8;
+}
+
+.queryActions button:nth-child(1) {
+  background-color: #10b981; /* Green for Accept */
+  color: white;
+}
+
+.queryActions button:nth-child(2) {
+  background-color: #ef4444; /* Red for Reject */
+  color: white;
+}
+
+.queryActions button:nth-child(3) {
+  background-color: #3b82f6; /* Blue for Reply */
+  color: white;
+}
+
+.queryActions button:nth-child(4) {
+  background-color: #64748b; /* Gray for Close */
+  color: white;
+}
+.navLink.emailQueries {
+  color: #4f46e5;
+}
+
+.navLink.emailQueries:hover {
+  color: #4338ca;
+}
